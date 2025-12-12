@@ -9,6 +9,17 @@
       "assets/images/paintings/fading into her thought/Gemini_Generated_Image_65u7265u7265u726.webp"
     ],
     "slug": "fading-into-her-thought"
+  }
+  ,
+  {
+    "title": "wings of freedom",
+    "year": 2025,
+    "medium": "Acrylic on canvas",
+    "dimensions": "11 x 14 inches",
+    "images": [
+      "assets/images/paintings/wings of freedom/ALT05245.webp"
+    ],
+    "slug": "wings-of-freedom"
   },
   {
     "title": "fox",
@@ -141,15 +152,5 @@
       "assets/images/paintings/the architect of bloom/ALT05183.webp"
     ],
     "slug": "the-architect-of-bloom"
-  },
-  {
-    "title": "wings of freedom",
-    "year": 2025,
-    "medium": "Acrylic on canvas",
-    "dimensions": "11 x 14 inches",
-    "images": [
-      "assets/images/paintings/wings of freedom/ALT05245.webp"
-    ],
-    "slug": "wings-of-freedom"
   }
 ]
