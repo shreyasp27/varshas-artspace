@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsha | Acrylic Narratives - Original Artwork & Portraits</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Explore the acrylic art portfolio of Varsha, a self-taught artist from Bangalore creating expressive portraits, nature studies, and abstract compositions since 2021.">
+    <meta name="keywords"
+        content="acrylic art, artist portfolio, original paintings, portraits, Bangalore artist, contemporary art">
+    <meta name="author" content="Varsha">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Varsha | Acrylic Narratives">
+    <meta property="og:description"
+        content="Visual poetry in acrylic - Explore original artwork and portraits by Varsha.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/paintings/reverie/ALT05225.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Varsha | Acrylic Narratives">
+    <meta name="twitter:description" content="Visual poetry in acrylic - Explore original artwork and portraits.">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Google Fonts with display swap -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'serif': ['"Playfair Display"', 'serif'],
+                        'sans': ['"Montserrat"', 'sans-serif'],
+                    },
+                    colors: {
+                        'gallery': '#F9F8F4', // Rich Cream
+                        'charcoal': '#1A1A1A', // Softer Black
+                        'gold': '#C5A059', // Champagne Gold
+                        'stone': '#E5E5E0',
+                    },
+                },
+            }
+        }
+    </script>
+
+    <style>
+        /* Base Styles */
+        body {
+            background-color: #F9F8F4;
+            color: #1A1A1A;
+            overflow-x: hidden;
+        }
+
+        /* Animation Helpers */
+        .reveal-box {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Hide scrollbar for lightbox thumbnails */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Masonry Utility */
+        .masonry-grid {
+            column-count: 1;
+            column-gap: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .masonry-grid {
+                column-count: 2;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .masonry-grid {
+                column-count: 3;
+            }
+        }
+
+        .masonry-item {
+            break-inside: avoid;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+
+
+    <!-- Navigation -->
+    <!-- Long Island Glassmorphic Navigation -->
+    <div class="fixed w-full z-50 top-0 flex justify-center px-4 md:px-8 pt-6">
+        <nav class="w-[90%] bg-white/40 backdrop-blur-xl border border-white/60 shadow-[0_8px_32px_0_rgba(31,38,135,0.15)] text-[#1A1A1A] px-6 py-3 md:px-12 md:py-4 flex justify-between items-center opacity-0 transition-all duration-500 rounded-full"
+            id="navbar" style="box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08), inset 0 1px 0 0 rgba(255, 255, 255, 0.5);">
+            <div class="text-left group cursor-pointer">
+                <a href="#" class="text-2xl md:text-3xl font-serif italic font-bold relative z-10">Varsha.</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-12 text-xs uppercase tracking-[0.2em] font-medium">
+                <a href="#gallery" class="hover:text-[#C5A059] transition-colors duration-300 relative group/link">
+                    Works
+                    <span
+                        class="absolute -bottom-2 left-0 w-0 h-[1px] bg-[#C5A059] transition-all duration-300 group-hover/link:w-full"></span>
+                </a>
+                <a href="#about" class="hover:text-[#C5A059] transition-colors duration-300 relative group/link">
+                    Artist
+                    <span
+                        class="absolute -bottom-2 left-0 w-0 h-[1px] bg-[#C5A059] transition-all duration-300 group-hover/link:w-full"></span>
+                </a>
+                <a href="#contact" class="hover:text-[#C5A059] transition-colors duration-300 relative group/link">
+                    Contact
+                    <span
+                        class="absolute -bottom-2 left-0 w-0 h-[1px] bg-[#C5A059] transition-all duration-300 group-hover/link:w-full"></span>
+                </a>
+                <a href="https://instagram.com/varshas_artspace" target="_blank" rel="noopener noreferrer"
+                    class="self-center hover:text-[#C5A059] transition-colors duration-300" aria-label="Instagram">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Mobile: Instagram + Menu Button -->
+            <div class="md:hidden flex items-center gap-4">
+                <a href="https://instagram.com/varshas_artspace" target="_blank" rel="noopener noreferrer"
+                    class="text-[#1A1A1A] hover:text-[#C5A059] transition-colors duration-300" aria-label="Instagram">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+                <button id="mobile-menu-btn" class="text-[#1A1A1A] focus:outline-none" onclick="toggleMobileMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Mobile Menu Islands -->
+    <div id="mobile-menu"
+        class="fixed right-4 top-24 z-40 md:hidden flex flex-col gap-3 opacity-0 pointer-events-none transition-all duration-300 translate-x-8">
+        <a href="#gallery" onclick="closeMobileMenu()"
+            class="bg-white/80 backdrop-blur-xl border border-white/60 shadow-lg px-5 py-3 text-xs uppercase tracking-[0.15em] font-medium text-[#1A1A1A] hover:text-[#C5A059] hover:border-[#C5A059]/30 transition-all duration-300 rounded-full text-center"
+            style="box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);">
+            Works
+        </a>
+        <a href="#about" onclick="closeMobileMenu()"
+            class="bg-white/80 backdrop-blur-xl border border-white/60 shadow-lg px-5 py-3 text-xs uppercase tracking-[0.15em] font-medium text-[#1A1A1A] hover:text-[#C5A059] hover:border-[#C5A059]/30 transition-all duration-300 rounded-full text-center"
+            style="box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);">
+            Artist
+        </a>
+        <a href="#contact" onclick="closeMobileMenu()"
+            class="bg-white/80 backdrop-blur-xl border border-white/60 shadow-lg px-5 py-3 text-xs uppercase tracking-[0.15em] font-medium text-[#1A1A1A] hover:text-[#C5A059] hover:border-[#C5A059]/30 transition-all duration-300 rounded-full text-center"
+            style="box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);">
+            Contact
+        </a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="min-h-screen w-full relative flex items-center pt-24 md:pt-0 overflow-hidden bg-gallery">
+            <!-- Background Texture -->
+            <div
+                class="absolute inset-0 opacity-30 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/cream-paper.png')] mix-blend-multiply">
+            </div>
+
+            <div
+                class="container mx-auto px-6 md:px-12 relative z-10 w-full h-full flex flex-col md:flex-row items-center justify-between">
+
+                <!-- Left: Typography -->
+                <div class="w-full md:w-3/5 order-2 md:order-1 pt-12 md:pt-0 relative z-20">
+                    <h1
+                        class="font-serif text-4xl md:text-6xl lg:text-8xl leading-snug text-charcoal mb-10 mix-blend-darken">
+                        <div class="overflow-hidden pb-4"><span
+                                class="hero-line block transform translate-y-full">Visual</span></div>
+                        <div class="overflow-hidden pb-4"><span
+                                class="hero-line block transform translate-y-full italic text-[#C5A059]">Poetry</span>
+                        </div>
+                        <div class="overflow-hidden pb-4"><span class="hero-line block transform translate-y-full">In
+                                Acrylic</span></div>
+                    </h1>
+                    <div class="hero-cta opacity-0 translate-y-4 mt-4 flex flex-col md:flex-row md:items-center gap-8">
+                        <a href="#gallery"
+                            class="group relative px-10 py-4 bg-charcoal text-white text-xs uppercase tracking-[0.2em] overflow-hidden inline-block w-fit">
+                            <span class="relative z-10 group-hover:text-charcoal transition-colors duration-500">View
+                                Works</span>
+                            <div
+                                class="absolute inset-0 bg-[#C5A059] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)]">
+                            </div>
+                        </a>
+                        <div class="flex items-center gap-4 text-charcoal/40 text-xs tracking-widest uppercase">
+                            <span class="w-12 h-px bg-charcoal/20"></span>
+                            <span>Est. 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Image Composition -->
+                <div
+                    class="w-full md:w-2/5 order-1 md:order-2 relative h-[50vh] md:h-[85vh] flex items-center justify-center md:justify-end">
+                    <div
+                        class="hero-img-box relative w-full h-full md:w-[90%] md:h-[90%] overflow-hidden bg-[#E5E5E0] shadow-2xl">
+                        <img src="assets/images/paintings/reverie/ALT05225.webp" alt="Reverie - Featured Artwork"
+                            class="hero-img w-full h-full object-cover grayscale-[10%]" fetchpriority="high"
+                            decoding="async">
+                    </div>
+
+                    <!-- Floating Decor Element -->
+                    <div
+                        class="hero-decor absolute -bottom-12 -left-12 w-48 h-48 bg-[#C5A059]/5 backdrop-blur-sm border border-[#C5A059]/20 rounded-full z-10 hidden md:flex items-center justify-center animate-[spin_30s_linear_infinite]">
+                        <div class="w-32 h-32 border border-[#C5A059]/10 rounded-full"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Featured Works Section -->
+        <section id="featured" class="py-32 bg-white relative overflow-hidden">
+            <!-- Background Decorative Line -->
+            <div class="absolute left-12 md:left-24 top-0 bottom-0 w-px bg-charcoal/5 hidden md:block"></div>
+
+            <div class="container mx-auto px-6 md:px-12 relative z-10">
+                <!-- Section Header -->
+                <div class="flex flex-col md:flex-row items-end justify-between mb-24 md:pl-24">
+                    <div>
+                        <span class="text-[#C5A059] uppercase tracking-[0.4em] text-[10px] font-bold mb-4 block">Curated
+                            Selection</span>
+                        <h2 class="text-5xl md:text-7xl font-serif text-[#1A1A1A]">Spotlight</h2>
+                    </div>
+                    <div class="hidden md:block text-right">
+                        <p class="text-charcoal/40 text-xs uppercase tracking-widest max-w-xs leading-relaxed">
+                            A closer look at specific pieces<br>that define the collection.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Featured Items Container -->
+                <div id="featured-container">
+                    <!-- Dynamic Items will be injected here via JS -->
+                    <div class="text-center text-charcoal/40 uppercase tracking-widest text-xs py-10">Loading
+                        Spotlight...</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Main Gallery Section -->
+        <section id="gallery" class="py-32 bg-[#F9F8F4]">
+            <div class="container mx-auto px-6 md:px-12">
+                <div class="mb-20 text-center">
+                    <span class="text-[#C5A059] uppercase tracking-[0.3em] text-xs font-bold mb-4 block">Full
+                        Collection</span>
+                    <h2 class="text-4xl md:text-6xl font-serif text-[#1A1A1A]">Selected Works</h2>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-msg" class="text-center py-20">
+                    <p class="text-charcoal/40 text-xs uppercase tracking-widest animate-pulse">Loading Gallery...</p>
+                </div>
+
+                <!-- Masonry Grid -->
+                <div id="gallery-container" class="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+                    <!-- Items injected via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 bg-[#EAE9E5]">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                    <div class="md:col-span-5 relative">
+                        <div class="overflow-hidden rounded-sm">
+                            <img src="assets/images/artist/artist-1.webp" alt="Varsha - Artist Portrait"
+                                class="w-full h-[600px] object-cover" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="md:col-span-1 md:col-start-7"></div>
+                    <div class="md:col-span-5">
+                        <span class="text-gold uppercase tracking-[0.3em] text-xs font-bold mb-4 block">About The
+                            Artist</span>
+                        <h2 class="text-5xl font-serif mb-8">Varsha</h2>
+                        <p class="text-charcoal/70 leading-loose mb-6 font-light">
+                            Varsha is a self-taught acrylic artist from Bangalore, India, whose creative journey began
+                            in 2021. What started as a personal escape quickly evolved into a passionate pursuit of
+                            translating emotions onto canvas through bold colors and expressive brushwork.
+                        </p>
+                        <p class="text-charcoal/70 leading-loose mb-6 font-light">
+                            Her work spans portraits, nature studies, and abstract compositions—each piece reflecting
+                            her belief that art should evoke feeling before explanation. Varsha draws inspiration from
+                            everyday moments, cinema, and the quiet beauty found in ordinary life.
+                        </p>
+                        <p class="text-charcoal/70 leading-loose mb-8 font-light">
+                            When not painting, she can be found exploring art galleries, experimenting with new
+                            techniques, or simply observing the world with an artist's eye—always searching for
+                            the next story to tell through her art.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="bg-charcoal text-gallery py-24 relative overflow-hidden">
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h2 class="text-6xl md:text-8xl font-serif mb-12 opacity-90">Let's Create.</h2>
+                <p class="text-white/50 mb-12 max-w-xl mx-auto font-light">Interested in any of my works? I'd love to
+                    hear from you.</p>
+
+                <div class="max-w-2xl mx-auto mb-20 relative">
+
+                    <form action="https://api.web3forms.com/submit" method="POST" class="text-left">
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="c40219e0-7c00-4b66-8f05-f537439c92e0">
+                        <input type="hidden" name="subject" value="New Submission from Varsha Artspace">
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div class="group">
+                                <label for="name"
+                                    class="block text-[10px] uppercase tracking-[0.2em] text-white/40 mb-2 group-focus-within:text-gold transition-colors">Name</label>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full bg-white/5 border border-white/10 px-4 py-3 text-gallery focus:outline-none focus:border-gold focus:bg-white/10 transition-all duration-300 placeholder-white/20 font-light">
+                            </div>
+                            <div class="group">
+                                <label for="contact"
+                                    class="block text-[10px] uppercase tracking-[0.2em] text-white/40 mb-2 group-focus-within:text-gold transition-colors">Email
+                                    or Phone</label>
+                                <input type="text" id="contact-info" name="contact" required
+                                    class="w-full bg-white/5 border border-white/10 px-4 py-3 text-gallery focus:outline-none focus:border-gold focus:bg-white/10 transition-all duration-300 placeholder-white/20 font-light">
+                            </div>
+                        </div>
+
+                        <div class="mb-10 group">
+                            <label for="message"
+                                class="block text-[10px] uppercase tracking-[0.2em] text-white/40 mb-2 group-focus-within:text-gold transition-colors">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                class="w-full bg-white/5 border border-white/10 px-4 py-3 text-gallery focus:outline-none focus:border-gold focus:bg-white/10 transition-all duration-300 placeholder-white/20 font-light"></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit"
+                                class="bg-white text-charcoal border border-white px-14 py-4 text-xs uppercase tracking-[0.3em] font-medium hover:bg-gold hover:border-gold hover:text-white transition-all duration-500">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div
+                    class="flex justify-between items-end border-t border-white/10 pt-8 text-xs uppercase tracking-widest text-white/30">
+                    <p>&copy; 2025 Varsha Artspace.</p>
+                    <div>
+                        <a href="https://instagram.com/varshas_artspace"
+                            class="hover:text-white transition-colors">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- IMMERSIVE LIGHTBOX (Viewing Room) -->
+    <div id="lightbox" class="fixed inset-0 z-50 hidden opacity-0 transition-opacity duration-500" aria-hidden="true">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-black/95 backdrop-blur-md" onclick="closeModal()"></div>
+
+        <!-- Close Button -->
+        <button onclick="closeModal()" aria-label="Close lightbox"
+            class="absolute top-6 right-6 z-50 text-white/50 hover:text-white transition-colors p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        <!-- Content Container -->
+        <div class="absolute inset-0 flex items-center justify-center p-4 md:p-12 pointer-events-none">
+            <div
+                class="bg-transparent w-full max-w-7xl h-full max-h-[90vh] flex flex-col md:flex-row gap-12 pointer-events-auto">
+
+                <!-- Left: Image (Cinematic) -->
+                <div class="w-full md:w-2/3 flex items-center justify-center h-full relative group">
+
+                    <!-- Prev Button -->
+                    <button onclick="prevImage()"
+                        class="absolute left-4 z-20 p-2 text-white/30 hover:text-white hover:bg-black/20 rounded-full transition-all opacity-0 group-hover:opacity-100 focus:opacity-100">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                    </button>
+
+                    <!-- Image Container -->
+                    <img id="lightbox-img" src="" alt="Artwork"
+                        class="max-h-full max-w-full object-contain shadow-2xl drop-shadow-2xl opacity-0 translate-y-4 transition-all duration-700">
+
+                    <!-- Next Button -->
+                    <button onclick="nextImage()"
+                        class="absolute right-4 z-20 p-2 text-white/30 hover:text-white hover:bg-black/20 rounded-full transition-all opacity-0 group-hover:opacity-100 focus:opacity-100">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Right: Details (Editorial) -->
+                <div class="w-full md:w-1/3 flex flex-col justify-center text-left text-[#E5E5E0]">
+                    <div id="lightbox-details"
+                        class="opacity-0 translate-y-4 transition-all duration-700 delay-100 space-y-8">
+
+                        <!-- Header -->
+                        <div>
+                            <h2 id="lightbox-title"
+                                class="text-4xl md:text-5xl font-serif italic text-white mb-2 leading-tight"></h2>
+                            <p id="lightbox-year" class="font-mono text-xs text-[#C5A059] tracking-widest uppercase">
+                            </p>
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="w-12 h-px bg-white/20"></div>
+
+                        <!-- Specs -->
+                        <div class="space-y-4 font-light text-sm text-white/70">
+                            <div class="grid grid-cols-[100px_1fr] gap-4">
+                                <span class="uppercase tracking-widest text-[10px] text-white/40 pt-1">Medium</span>
+                                <span id="lightbox-medium"></span>
+                            </div>
+                            <div class="grid grid-cols-[100px_1fr] gap-4">
+                                <span class="uppercase tracking-widest text-[10px] text-white/40 pt-1">Dimensions</span>
+                                <span id="lightbox-dimensions"></span>
+                            </div>
+                        </div>
+
+                        <!-- Thumbnails -->
+                        <div id="lightbox-thumbnails" class="flex flex-wrap gap-2 pt-4">
+                            <!-- Thumbnails injected via JS -->
+                        </div>
+
+                        <!-- Actions -->
+                        <div class="pt-4">
+                            <button onclick="openInquiry()"
+                                class="group relative px-8 py-4 bg-white text-black font-sans text-xs uppercase tracking-[0.2em] transition-all hover:bg-[#C5A059] hover:text-white w-full md:w-auto">
+                                <span>Inquire About Piece</span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INQUIRY MODAL -->
+    <div id="inquiry-modal" class="fixed inset-0 z-[60] hidden">
+        <div class="absolute inset-0 bg-black/80 backdrop-blur-sm" onclick="closeInquiry()"></div>
+        <div
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-white p-8 md:p-12 shadow-2xl">
+            <button onclick="closeInquiry()" aria-label="Close inquiry form"
+                class="absolute top-4 right-4 text-charcoal/50 hover:text-charcoal">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+
+            <h3 class="font-serif text-3xl mb-2 text-charcoal">Inquiry</h3>
+            <p class="text-xs text-charcoal/50 uppercase tracking-widest mb-8">Regarding: <span
+                    id="inquiry-subject-display" class="text-[#C5A059] font-bold"></span></p>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <input type="hidden" name="subject" id="inquiry-subject" value="New Inquiry">
+
+                <div class="space-y-1">
+                    <label class="text-[10px] uppercase tracking-widest text-charcoal/60">Name</label>
+                    <input type="text" name="name" required
+                        class="w-full bg-charcoal/5 border-0 border-b border-charcoal/20 p-3 focus:ring-0 focus:border-[#C5A059] transition-colors outline-none text-charcoal">
+                </div>
+
+                <div class="space-y-1">
+                    <label class="text-[10px] uppercase tracking-widest text-charcoal/60">Email</label>
+                    <input type="email" name="email" required
+                        class="w-full bg-charcoal/5 border-0 border-b border-charcoal/20 p-3 focus:ring-0 focus:border-[#C5A059] transition-colors outline-none text-charcoal">
+                </div>
+
+                <div class="space-y-1">
+                    <label class="text-[10px] uppercase tracking-widest text-charcoal/60">Message</label>
+                    <textarea name="message" rows="3"
+                        class="w-full bg-charcoal/5 border-0 border-b border-charcoal/20 p-3 focus:ring-0 focus:border-[#C5A059] transition-colors outline-none text-charcoal"></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-charcoal text-white py-4 text-xs uppercase tracking-[0.2em] hover:bg-[#C5A059] transition-colors">
+                    Send Inquiry
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- GSAP Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Helper: Title Case
+        function toTitleCase(str) {
+            return str.replace(/\w\S*/g, function (txt) {
+                return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+            });
+        }
+
+        // Global Variable to hold the fetched data
+        let paintingData = [];
+
+        // --- ASYNC FETCH & RENDER ---
+        async function initGallery() {
+            const galleryContainer = document.getElementById('gallery-container');
+            const loadingMsg = document.getElementById('loading-msg');
+
+            try {
+                const response = await fetch('paintings.json');
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                paintingData = await response.json();
+
+                renderGalleryGrid(paintingData, galleryContainer);
+                renderFeaturedSpotlight(paintingData);
+
+                loadingMsg.style.display = 'none';
+
+            } catch (error) {
+                console.error('Error loading paintings:', error);
+                loadingMsg.innerHTML = `<p class="text-red-600">Error loading gallery: ${error.message}. Please ensure you are running a local server.</p>`;
+            }
+        }
+
+        function renderGalleryGrid(data, container) {
+            if (!container) return;
+
+            data.forEach((painting, index) => {
+                if (!painting.images || painting.images.length === 0) return;
+
+                const mainImage = painting.images[0];
+                const formattedTitle = toTitleCase(painting.title);
+
+                const itemHTML = `
+                    <div class="masonry-item group cursor-pointer relative break-inside-avoid mb-12" onclick="openModal(${index})">
+                        <div class="relative overflow-hidden bg-charcoal/5">
+                            <img src="${mainImage}" alt="${formattedTitle}" 
+                                class="w-full h-auto object-cover" loading="lazy" decoding="async">
+                        </div>
+                        <div class="mt-4 flex justify-between items-start">
+                            <div>
+                                <h3 class="font-serif text-lg text-charcoal leading-none mb-1">${formattedTitle}</h3>
+                                <p class="font-mono text-[10px] text-charcoal/40 uppercase tracking-wider">${painting.medium}</p>
+                            </div>
+                            <span class="font-mono text-[10px] text-charcoal/30">${painting.year}</span>
+                        </div>
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', itemHTML);
+            });
+        }
+
+        function renderFeaturedSpotlight(data) {
+            const container = document.getElementById('featured-container');
+            const featuredSlugs = ['journey of a free soul', 'kobe'];
+
+            const curatedDescriptions = {
+                'kobe': "A striking tribute capturing the intensity and spirit of a legend. The interplay of shadow and light emphasizes the depth of character, serving as a centerpiece of inspiration.",
+                'journey of a free soul': "A vibrant exploration of liberation and self-discovery. Bold strokes and flowing forms capture the essence of breaking free, inviting viewers to embrace their own path to freedom."
+            };
+
+            container.innerHTML = '';
+
+            let count = 0;
+            featuredSlugs.forEach((slug) => {
+                const painting = data.find(p => p.slug === slug || p.title.toLowerCase() === slug);
+                if (!painting) return;
+
+                count++;
+                const num = count.toString().padStart(2, '0');
+                const isEven = count % 2 === 0;
+
+                // Dynamic Layout Classes
+                const layoutClass = isEven ? 'md:flex-row-reverse md:pr-12' : 'md:flex-row md:pl-24';
+                const textAlign = isEven ? 'md:items-end md:text-right' : '';
+                const paddingDesc = isEven ? 'md:pl-12' : 'md:pr-12';
+                const numberPos = isEven
+                    ? 'absolute -right-6 top-0 transform translate-x-1/2'
+                    : 'absolute -left-6 top-0 transform -translate-x-1/2';
+                const metaOrder = isEven ? 'md:flex-row-reverse' : '';
+
+                const html = `
+                <div class="featured-item group relative flex flex-col ${layoutClass} gap-12 md:gap-24 mb-32 items-center">
+                    <!-- Numbering -->
+                    <div class="hidden md:block ${numberPos}">
+                        <span class="text-9xl font-serif text-charcoal/5 group-hover:text-[#C5A059]/10 transition-colors duration-700">${num}</span>
+                    </div>
+
+                    <div class="w-full md:w-3/5 relative cursor-pointer overflow-hidden shadow-2xl" onclick="openModalByName('${toTitleCase(painting.title)}')">
+                        <img src="${painting.images[0]}" alt="${toTitleCase(painting.title)}"
+                            class="w-full h-auto block" loading="lazy" decoding="async">
+                    </div>
+
+                    <div class="w-full md:w-2/5 flex flex-col justify-center ${textAlign}">
+                        <h3 class="text-4xl md:text-5xl font-serif italic mb-6 text-[#1A1A1A]">${toTitleCase(painting.title)}</h3>
+                        <p class="text-[#1A1A1A]/60 leading-loose mb-8 font-light text-sm ${paddingDesc}">
+                            ${curatedDescriptions[slug] || "A masterpiece in acrylics."}
+                        </p>
+                        <div class="flex items-center gap-6 ${metaOrder}">
+                            <button onclick="openModalByName('${toTitleCase(painting.title)}')"
+                                class="text-xs uppercase tracking-[0.2em] border-b border-[#C5A059] pb-1 hover:text-[#C5A059] transition-colors">
+                                Explore Details
+                            </button>
+                            <span class="text-[10px] text-charcoal/30 font-mono">${painting.dimensions} • ${painting.medium}</span>
+                        </div>
+                    </div>
+                </div>`;
+
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        // --- PAGE ANIMATIONS ---
+        gsap.to("#navbar", { opacity: 1, duration: 1, delay: 0.5, ease: "power2.out" });
+
+        const heroTl = gsap.timeline({ defaults: { ease: "power3.out" } });
+        heroTl.to(".hero-line", { y: "0%", duration: 1.2, stagger: 0.15, ease: "power4.out" })
+            .to(".hero-cta", { opacity: 1, y: 0, duration: 1 }, "-=0.5");
+
+        // Global variables for gallery navigation
+        let currentImages = [];
+        let currentIndex = 0;
+
+        // --- NEW MODAL LOGIC (Dark Theme) ---
+        function openModal(index) {
+            const painting = paintingData[index];
+            if (!painting) return;
+
+            // Store current images for navigation
+            currentImages = painting.images;
+            currentIndex = 0;
+
+            // Populate Text Data
+            document.getElementById('lightbox-title').innerText = toTitleCase(painting.title);
+            document.getElementById('lightbox-year').innerText = painting.year;
+            document.getElementById('lightbox-medium').innerText = painting.medium;
+            document.getElementById('lightbox-dimensions').innerText = painting.dimensions;
+
+            // Toggle Navigation Arrows
+            const prevBtn = document.querySelector('button[onclick="prevImage()"]');
+            const nextBtn = document.querySelector('button[onclick="nextImage()"]');
+
+            if (currentImages.length > 1) {
+                prevBtn.style.display = 'block';
+                nextBtn.style.display = 'block';
+            } else {
+                prevBtn.style.display = 'none';
+                nextBtn.style.display = 'none';
+            }
+
+            // Initial Image Render
+            updateLightboxImage(false);
+            renderThumbnails();
+
+            // Show Modal
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('hidden');
+
+            // Animation
+            gsap.to(lightbox, { opacity: 1, duration: 0.5 });
+            gsap.to('#lightbox-img', { opacity: 1, y: 0, duration: 0.8, delay: 0.2, ease: "power3.out" });
+            gsap.to('#lightbox-details', { opacity: 1, y: 0, duration: 0.8, delay: 0.4, ease: "power3.out" });
+
+            // Update Inquiry Subject
+            document.getElementById('inquiry-subject').value = `Inquiry: ${toTitleCase(painting.title)}`;
+            document.getElementById('inquiry-subject-display').innerText = toTitleCase(painting.title);
+
+            // Lock Scroll
+            document.body.style.overflow = 'hidden';
+        }
+
+        function updateLightboxImage(animate = true) {
+            const imgEl = document.getElementById('lightbox-img');
+            if (currentImages.length > 0) {
+                const newSrc = currentImages[currentIndex];
+
+                if (animate) {
+                    gsap.to(imgEl, {
+                        opacity: 0, duration: 0.2, onComplete: () => {
+                            imgEl.src = newSrc;
+                            gsap.to(imgEl, { opacity: 1, duration: 0.3 });
+                        }
+                    });
+                } else {
+                    imgEl.src = newSrc;
+                }
+            }
+
+            // Update active thumbnail state
+            const thumbs = document.querySelectorAll('.lightbox-thumb');
+            thumbs.forEach((t, i) => {
+                if (i === currentIndex) {
+                    t.classList.add('border-[#C5A059]', 'opacity-100');
+                    t.classList.remove('border-transparent', 'opacity-50');
+                } else {
+                    t.classList.remove('border-[#C5A059]', 'opacity-100');
+                    t.classList.add('border-transparent', 'opacity-50');
+                }
+            });
+        }
+
+        function renderThumbnails() {
+            const container = document.getElementById('lightbox-thumbnails');
+            container.innerHTML = '';
+
+            if (currentImages.length <= 1) return; // Don't show thumbnails if only 1 image
+
+            currentImages.forEach((src, idx) => {
+                const thumb = document.createElement('img');
+                thumb.src = src;
+                // Increased size from w-12 h-12 to w-20 h-20
+                thumb.className = `lightbox-thumb w-20 h-20 object-cover border-2 cursor-pointer transition-all duration-300 hover:opacity-100 ${idx === 0 ? 'border-[#C5A059] opacity-100' : 'border-transparent opacity-50'}`;
+                thumb.onclick = () => {
+                    currentIndex = idx;
+                    updateLightboxImage();
+                };
+                container.appendChild(thumb);
+            });
+        }
+
+        function nextImage() {
+            if (currentImages.length <= 1) return;
+            currentIndex = (currentIndex + 1) % currentImages.length;
+            updateLightboxImage();
+        }
+
+        function prevImage() {
+            if (currentImages.length <= 1) return;
+            currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+            updateLightboxImage();
+        }
+
+        // Helper to find by name for Featured section
+        function openModalByName(title) {
+            const index = paintingData.findIndex(p => p.title.toLowerCase() === title.toLowerCase());
+            if (index !== -1) openModal(index);
+        }
+
+        function closeModal() {
+            const lightbox = document.getElementById('lightbox');
+
+            // Animate Out
+            gsap.to('#lightbox-img', { opacity: 0, y: 20, duration: 0.4 });
+            gsap.to('#lightbox-details', { opacity: 0, y: 20, duration: 0.4 });
+            gsap.to(lightbox, {
+                opacity: 0, duration: 0.5, onComplete: () => {
+                    lightbox.classList.add('hidden');
+                    document.getElementById('lightbox-img').src = '';
+                }
+            });
+
+            document.body.style.overflow = '';
+        }
+
+        // Keyboard Navigation
+        document.addEventListener('keydown', (e) => {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox.classList.contains('hidden')) return;
+
+            if (e.key === 'Escape') closeModal();
+            if (e.key === 'ArrowRight') nextImage();
+            if (e.key === 'ArrowLeft') prevImage();
+        });
+
+        function openInquiry() {
+            const modal = document.getElementById('inquiry-modal');
+            const paintingTitle = document.getElementById('inquiry-subject-display').innerText;
+            const messageTextarea = modal.querySelector('textarea[name="message"]');
+
+            // Auto-populate the message with the painting title
+            if (paintingTitle && messageTextarea) {
+                messageTextarea.value = `Hello,\n\nI am interested in the painting "${paintingTitle}" and would like to inquire about its availability and pricing.\n\nPlease reach out to me via email or phone.\n\nThank you!`;
+            }
+
+            modal.classList.remove('hidden');
+            gsap.fromTo(modal.querySelector('.bg-white'),
+                { opacity: 0, y: 20 },
+                { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }
+            );
+        }
+
+        function closeInquiry() {
+            document.getElementById('inquiry-modal').classList.add('hidden');
+        }
+
+        // Mobile Menu Functions
+        let mobileMenuOpen = false;
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            mobileMenuOpen = !mobileMenuOpen;
+
+            if (mobileMenuOpen) {
+                menu.classList.remove('opacity-0', 'pointer-events-none', 'translate-x-8');
+                menu.classList.add('opacity-100', 'pointer-events-auto', 'translate-x-0');
+            } else {
+                menu.classList.add('opacity-0', 'pointer-events-none', 'translate-x-8');
+                menu.classList.remove('opacity-100', 'pointer-events-auto', 'translate-x-0');
+            }
+        }
+
+        function closeMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            mobileMenuOpen = false;
+            menu.classList.add('opacity-0', 'pointer-events-none', 'translate-x-8');
+            menu.classList.remove('opacity-100', 'pointer-events-auto', 'translate-x-0');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const menu = document.getElementById('mobile-menu');
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            if (mobileMenuOpen && !menu.contains(e.target) && !menuBtn.contains(e.target)) {
+                closeMobileMenu();
+            }
+        });
+
+        // Initialize the gallery when the page loads
+        initGallery();
+    </script>
+</body>
+
+</html>
